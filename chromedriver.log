@@ -1,0 +1,185 @@
+[1721322093.254][INFO]: Starting ChromeDriver 126.0.6478.182 (5b5d8292ddf182f8b2096fa665b473b6317906d5-refs/branch-heads/6478@{#1776}) on port 19422
+[1721322093.255][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1721322094.282][INFO]: [6fa8a7fefb882abba228111a0159a257] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         },
+         "goog:loggingPrefs": {
+            "browser": "ALL",
+            "driver": "ALL"
+         }
+      } ]
+   }
+}
+[1721322094.290][INFO]: Browser search. Trying... C:\Users\v-rbasupally\.cache\selenium\chromedriver\win64\126.0.6478.182\chrome.exe
+[1721322094.291][INFO]: Browser search. Trying... C:\Users\v-rbasupally\.cache\selenium\chromedriver\win64\126.0.6478.182\chrome.exe
+[1721322094.291][INFO]: Browser search. Trying... C:\Users\v-rbasupally\.cache\selenium\chromedriver\win64\126.0.6478.182\chromium.exe
+[1721322094.307][INFO]: Browser search. Trying... C:\Users\v-rbasupally\AppData\Local\Google\Chrome\Application\chrome.exe
+[1721322094.307][INFO]: Browser search. Trying... C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[1721322094.307][INFO]: Browser search. Trying... C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[1721322094.307][INFO]: Browser search. Trying... C:\Program Files\Google\Chrome\Application\chrome.exe
+[1721322094.307][INFO]: Browser search. Found at  C:\Program Files\Google\Chrome\Application\chrome.exe
+[1721322094.311][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1721322094.312][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1721322094.316][INFO]: ChromeDriver supports communication with Chrome via pipes. This is more reliable and more secure.
+[1721322094.316][INFO]: Use the --remote-debugging-pipe Chrome switch instead of the default --remote-debugging-port to enable this communication mode.
+[1721322094.328][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-logging --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\V-RBAS~1\AppData\Local\Temp\scoped_dir9884_517275946" data:,
+[1721322095.854][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1721322096.641][INFO]: [6fa8a7fefb882abba228111a0159a257] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "126.0.6478.182",
+      "chrome": {
+         "chromedriverVersion": "126.0.6478.182 (5b5d8292ddf182f8b2096fa665b473b6317906d5-refs/branch-heads/6478@{#1776})",
+         "userDataDir": "C:\\Users\\V-RBAS~1\\AppData\\Local\\Temp\\scoped_dir9884_517275946"
+      },
+      "fedcm:accounts": true,
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:58783"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:extension:minPinLength": true,
+      "webauthn:extension:prf": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "6fa8a7fefb882abba228111a0159a257"
+}
+[1721322097.155][INFO]: [6fa8a7fefb882abba228111a0159a257] COMMAND MaximizeWindow {
+}
+[1721322097.155][INFO]: Waiting for pending navigations...
+[1721322097.162][INFO]: Done waiting for pending navigations. Status: ok
+[1721322097.325][INFO]: Waiting for pending navigations...
+[1721322097.401][INFO]: Done waiting for pending navigations. Status: ok
+[1721322097.401][INFO]: [6fa8a7fefb882abba228111a0159a257] RESPONSE MaximizeWindow {
+   "height": 688,
+   "width": 1296,
+   "x": -8,
+   "y": -8
+}
+[1721322097.423][INFO]: [6fa8a7fefb882abba228111a0159a257] COMMAND SetTimeouts {
+   "implicit": 30000
+}
+[1721322097.425][INFO]: [6fa8a7fefb882abba228111a0159a257] RESPONSE SetTimeouts
+[1721322097.440][INFO]: [6fa8a7fefb882abba228111a0159a257] COMMAND Navigate {
+   "url": "https://leetcode.com/"
+}
+[1721322097.441][INFO]: Waiting for pending navigations...
+[1721322097.446][INFO]: Done waiting for pending navigations. Status: ok
+[1721322098.451][INFO]: Waiting for pending navigations...
+[1721322102.568][INFO]: Done waiting for pending navigations. Status: ok
+[1721322102.568][INFO]: [6fa8a7fefb882abba228111a0159a257] RESPONSE Navigate
+[1721322102.596][INFO]: [6fa8a7fefb882abba228111a0159a257] COMMAND GetUrl {
+}
+[1721322102.597][INFO]: Waiting for pending navigations...
+[1721322102.605][INFO]: Done waiting for pending navigations. Status: ok
+[1721322103.156][INFO]: Waiting for pending navigations...
+[1721322103.183][INFO]: Done waiting for pending navigations. Status: ok
+[1721322103.183][INFO]: [6fa8a7fefb882abba228111a0159a257] RESPONSE GetUrl "https://leetcode.com/"
+[1721322103.194][INFO]: [6fa8a7fefb882abba228111a0159a257] COMMAND Navigate {
+   "url": "https://leetcode.com/problemset/"
+}
+[1721322103.194][INFO]: Waiting for pending navigations...
+[1721322103.256][INFO]: Done waiting for pending navigations. Status: ok
+[1721322103.511][INFO]: Waiting for pending navigations...
+[1721322108.762][INFO]: Done waiting for pending navigations. Status: ok
+[1721322108.762][INFO]: [6fa8a7fefb882abba228111a0159a257] RESPONSE Navigate
+[1721322110.787][INFO]: [6fa8a7fefb882abba228111a0159a257] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[@href='/problems/two-sum']"
+}
+[1721322110.787][INFO]: Waiting for pending navigations...
+[1721322112.272][INFO]: Done waiting for pending navigations. Status: ok
+[1721322112.817][INFO]: Waiting for pending navigations...
+[1721322112.829][INFO]: Done waiting for pending navigations. Status: ok
+[1721322112.829][INFO]: [6fa8a7fefb882abba228111a0159a257] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f.865ED2D54235203F60F8569BA8D13E45.d.EB56F4A66887A928262861B649170BCA.e.38"
+}
+[1721322112.852][INFO]: [6fa8a7fefb882abba228111a0159a257] COMMAND ClickElement {
+   "id": "f.865ED2D54235203F60F8569BA8D13E45.d.EB56F4A66887A928262861B649170BCA.e.38"
+}
+[1721322112.852][INFO]: Waiting for pending navigations...
+[1721322112.854][INFO]: Done waiting for pending navigations. Status: ok
+[1721322114.831][INFO]: Waiting for pending navigations...
+[1721322114.851][INFO]: Done waiting for pending navigations. Status: ok
+[1721322114.851][INFO]: [6fa8a7fefb882abba228111a0159a257] RESPONSE ClickElement ERROR stale element reference: stale element not found in the current frame
+  (Session info: chrome=126.0.6478.182)

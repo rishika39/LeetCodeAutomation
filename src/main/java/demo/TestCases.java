@@ -143,9 +143,9 @@ public  void testCase04() throws InterruptedException{
     System.out.println("Start Test case: testCase04");
     driver.get("https://leetcode.com/problems/two-sum/description/");
  Thread.sleep(7000);
- WebElement btn=driver.findElement(By.xpath("(//div[text()='Submissions'])[1]"));
+ WebElement btn=driver.findElement(By.xpath("//*[@id=\"submissions_tab\"]/div[2]/div[2]"));
  btn.click();
- Thread.sleep(7000);
+ Thread.sleep(2000);
  WebElement login=driver.findElement(By.xpath("//a[text()='Register or Sign In']"));
  if(login.getText().contains("Register or Sign In")){
     System.out.println("The URL of the homepage contains Register or Sign In");
